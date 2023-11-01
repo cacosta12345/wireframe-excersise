@@ -1,0 +1,62 @@
+header {
+    background-color: rgb(78, 78, 78);
+    color: rgb(250, 248, 244);
+    display: flex;
+}
+
+header img {
+    padding: 20px;
+}
+
+header .deck.across {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+header nav.card.across {
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav li {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main {
+    display: flex;
+
+}
+
+main .deck {
+    width: 100%;
+}
+
+main .card.across {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    justify-content: space-evenly;
+}
+
+main .card.across .card{
+    padding: 10px;
+}
+
+main .card.across .card button{
+    background-color: #111;
+    color: white;
+}
+
+footer {
+    background-color: #111;
+    padding: 20px;
+    height: 100px;
+}
